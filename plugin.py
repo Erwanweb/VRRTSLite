@@ -153,13 +153,13 @@ class BasePlugin:
                 if (Devices[3].sValue == "10"):
                     Devices[3].Update(nValue = 1,sValue = "10")
                     for idx in self.Blinds:
-                        DomoticzAPI("type=command&param=switchlight&idx={}&&switchcmd=On".format(idx))
+                        DomoticzAPI("type=command&param=switchlight&idx={}&switchcmd=On".format(idx))
                         Domoticz.Debug("Auto command - Close")
 
                 elif (Devices[3].sValue == "20"):
                     Devices[3].Update(nValue = 1,sValue = "20")
                     for idx in self.Blinds:
-                        DomoticzAPI("type=command&param=switchlight&idx={}&&switchcmd=Off".format(idx))
+                        DomoticzAPI("type=command&param=switchlight&idx={}&switchcmd=Off".format(idx))
                         Domoticz.Debug("Auto command - Open")
 
 
