@@ -16,7 +16,7 @@ Version:    0.0.1: alpha
         <param field="Port" label="Port" width="40px" required="true" default="8080"/>
         <param field="Username" label="Username" width="200px" required="false" default=""/>
         <param field="Password" label="Password" width="200px" required="false" default=""/>
-        <param field="Mode1" label="Blind percentage Idx (csv list of idx)" width="200px" required="true" default=""/>
+        <param field="Mode1" label="RTS Blind switch Idx (csv list of idx)" width="200px" required="true" default=""/>
         <param field="Mode6" label="Logging Level" width="200px">
             <options>
                 <option label="Normal" value="Normal"  default="true"/>
